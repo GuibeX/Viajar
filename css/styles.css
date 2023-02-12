@@ -1,0 +1,114 @@
+/*******************
+ * General styling *
+ *******************/
+ body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #1A1A1A;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25;
+  text-decoration: none;
+  padding: 15px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button--primary {
+  color: #ffffff;
+  background-color: #3075C6;
+}
+
+.button--primary:hover {
+  background-color: #5396E5;
+}
+
+.button--primary:focus {
+  background-color: #1D63B6;
+}
+
+.button--secondary {
+  color: #3075C6;
+  background-color: #ffffff;
+}
+
+.button--secondary:hover {
+  color: #5396E5;
+}
+
+.button--secondary:focus {
+  color: #1D63B6;
+}
+
+/**********
+ * Navbar *
+ **********/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 90px;
+}
+
+.header_actions {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.menu {
+  margin-left: 60px;
+}
+
+ .menu__item {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #1a1a1a;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu__item:hover {
+  color: #5396E5;
+}
+
+.menu__item:focus {
+  color: #1D63B6
+}
+
+/**********
+ * Banner *
+ **********/
+
+
+/**********
+ * Places *
+ **********/
+
+
+/**************
+ * Newsletter *
+ **************/
+
+
+/**********
+ * Footer *
+ **********/
+
